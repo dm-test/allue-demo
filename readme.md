@@ -1,9 +1,9 @@
-#Allure - demo
+# Allure - demo
 **Проект для демонстрации возможностей Allure**
 
-##Запуск тестов
+## Запуск тестов
     mvn clean test -Dsuite=suite.xml
     
-##Построение отчета
+## Построение отчета
     mvn allure:serve
 
