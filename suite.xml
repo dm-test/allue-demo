@@ -5,6 +5,7 @@
         <classes>
             <class name="com.github.dmtest.test.DemoSuccessConnection"/>
             <class name="com.github.dmtest.test.DemoSteps"/>
+            <class name="com.github.dmtest.test.DemoAttachments"/>
         </classes>
     </test>
 </suite>
