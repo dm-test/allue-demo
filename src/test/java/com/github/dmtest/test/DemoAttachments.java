@@ -14,7 +14,9 @@ import org.testng.annotations.Test;
 import java.io.ByteArrayInputStream;
 import java.nio.charset.Charset;
 
-
+/**
+ * 3. В классе демонстрируется использование вложений.
+ */
 public class DemoAttachments {
     private WebDriver driver;
 
