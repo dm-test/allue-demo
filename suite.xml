@@ -6,6 +6,12 @@
             <class name="com.github.dmtest.test.DemoSuccessConnection"/>
             <class name="com.github.dmtest.test.DemoSteps"/>
             <class name="com.github.dmtest.test.DemoAttachments"/>
+            <class name="com.github.dmtest.test.annotations.DemoAnnotationDescription"/>
+            <class name="com.github.dmtest.test.annotations.DemoAnnotationsFunctionality"/>
+            <class name="com.github.dmtest.test.annotations.DemoAnnotationFlaky"/>
+            <class name="com.github.dmtest.test.annotations.DemoAnnotationsLinks"/>
+            <class name="com.github.dmtest.test.annotations.DemoAnnotationOwner"/>
+            <class name="com.github.dmtest.test.annotations.DemoAnnotationSeverity"/>
         </classes>
     </test>
 </suite>
