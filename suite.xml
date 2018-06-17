@@ -14,6 +14,7 @@
             <class name="com.github.dmtest.test.annotations.DemoAnnotationSeverity"/>
             <class name="com.github.dmtest.test.DemoParametrizedTests"/>
             <class name="com.github.dmtest.test.DemoCategories"/>
+            <class name="com.github.dmtest.test.DemoEnvironment"/>
         </classes>
     </test>
 </suite>
