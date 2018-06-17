@@ -38,7 +38,7 @@ public class DemoParametrizedTests {
     }
 
     @Test(description = "Демонстрация работы с параметризованными тестами", dataProvider = "Тестовые данные")
-    public void demoAttachmentsWithAnnotatedMethodTest(String data) {
+    public void demoParametrizedTest(String data) {
         String xpath = String.format("//span[@class='lg-menu__text'][contains(text(),'%s')]", data);
         WebElement element = driver.findElement(By.xpath(xpath));
         Assert.assertTrue(element.isDisplayed());
