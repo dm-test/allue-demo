@@ -32,7 +32,7 @@ public class DemoAnnotationsLinks {
 
     @Links({@Link(name = "«Сбербанк» - Частным клиентам", url = "http://www.sberbank.ru"),
             @Link(name = "Сбербанк Онлайн", url = "https://online.sberbank.ru")})
-    @Test(description = "Демонстрация использования аннотаций @Link и @Links")
+    @Test(description = "Демонстрация использования аннотаций @Link и @Links", enabled = false)
     public void demoAnnotationLinksTest() {
         driver.get("http://www.sberbank.ru");
         Assert.assertEquals(driver.getTitle(), "«Сбербанк» - Частным клиентам");
@@ -47,7 +47,7 @@ public class DemoAnnotationsLinks {
     }
 
     @TmsLinks({@TmsLink("TL-135"), @TmsLink("TL-158")})
-    @Test(description = "Демонстрация использования аннотаций @TmsLink и @TmsLinks")
+    @Test(description = "Демонстрация использования аннотаций @TmsLink и @TmsLinks", enabled = false)
     public void demoAnnotationTmsLinksTest() {
         driver.get("http://www.sberbank.ru");
         WebElement element = driver.findElement(By.xpath("//span[@class='lg-menu__text'][contains(text(),'Инвестиции')]"));
