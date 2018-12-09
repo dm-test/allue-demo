@@ -40,7 +40,7 @@ public class DemoAnnotationsLinks {
         Assert.assertEquals(driver.getTitle(), "Сбербанк Онлайн");
     }
 
-    @Issues({@Issue("FGY-1"), @Issue("FGY-2")})
+    @Issue("MYP-1")
     @Test(description = "Демонстрация использования аннотаций @Issue и @Issues")
     public void demoAnnotationIssuesTest() {
         driver.get("invalid_url.ru");
