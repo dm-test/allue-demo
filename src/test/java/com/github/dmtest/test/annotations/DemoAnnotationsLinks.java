@@ -43,7 +43,7 @@ public class DemoAnnotationsLinks {
     @Issue("MYP-1")
     @Test(description = "Демонстрация использования аннотаций @Issue и @Issues")
     public void demoAnnotationIssuesTest() {
-        driver.get("invalid_url.ru");
+        driver.get("http://yandex.ru");
     }
 
     @TmsLinks({@TmsLink("TL-135"), @TmsLink("TL-158")})
